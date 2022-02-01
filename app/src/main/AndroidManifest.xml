@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.optic.deliverykotlinudemy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DeliveryKotlinUdemy"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup,UnusedAttribute">
+        <activity
+            android:name=".activities.client.orders.map.ClientOrdersMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.delivery.orders.map.DeliveryOrdersMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.delivery.orders.detail.DeliveryOrdersDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".activities.delivery.home.DeliveryHomeActivity" />
+        <activity
+            android:name=".activities.restaurant.orders.detail.RestaurantOrdersDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".activities.restaurant.home.RestaurantHomeActivity" />
+        <activity
+            android:name=".activities.client.orders.detail.ClientOrdersDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".activities.client.home.ClientHomeActivity" />
+        <activity
+            android:name=".activities.client.payments.form.ClientPaymentFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.client.address.map.ClientAddressMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.client.address.create.ClientAddressCreateActivity"
+            android:exported="false"
+            android:parentActivityName=".activities.client.address.list.ClientAddressListActivity" />
+        <activity
+            android:name=".activities.client.address.list.ClientAddressListActivity"
+            android:exported="false"
+            android:parentActivityName=".activities.client.shopping_bag.ClientShoppingBagActivity" />
+        <activity
+            android:name=".activities.client.shopping_bag.ClientShoppingBagActivity"
+            android:exported="false"
+            android:parentActivityName=".activities.client.home.ClientHomeActivity" />
+        <activity
+            android:name=".activities.client.products.detail.ClientProductsDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.client.products.list.ClientProductsListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.client.update.ClientUpdateActivity"
+            android:exported="true"
+            android:parentActivityName=".activities.client.home.ClientHomeActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activities.SaveImageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.delivery.home.DeliveryHomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.restaurant.home.RestaurantHomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.SelectRolesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.client.home.ClientHomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAT-oqJyn7ZtXXDhxN1WFLx0SV7B9xNIDA" />
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.restaurant.RestaurantCategoryFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageview_category"
+            android:background="@color/gray_light"
+            android:src="@drawable/ic_baseline_image_24"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <EditText
+            android:id="@+id/edittext_category"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Nombre de la Categoría"
+            android:background="@drawable/edittext_custom"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginBottom="65dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/btn_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear Categoría"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:layout_marginRight="20dp" />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
