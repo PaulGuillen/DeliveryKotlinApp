@@ -19,19 +19,19 @@
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/scroll_view"
-        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_alignParentBottom="true">
 
         <LinearLayout
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentStart="true"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
@@ -77,11 +77,11 @@
 
                     <EditText
                         android:id="@+id/edittext_email"
+                        style="@style/EditTextGeneral"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:drawableEnd="@drawable/ic_email"
                         android:fontFamily="@font/cairo_light"
-                        style="@style/EditTextGeneral"
                         android:hint="Correo"
                         android:inputType="textEmailAddress"
                         android:padding="15dp"
@@ -97,12 +97,12 @@
 
                     <EditText
                         android:id="@+id/edittext_password"
+                        style="@style/EditTextGeneral"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:drawableEnd="@drawable/ic__key"
                         android:hint="Contraseña"
-                        style="@style/EditTextGeneral"
                         android:inputType="textPassword" />
 
                     <View

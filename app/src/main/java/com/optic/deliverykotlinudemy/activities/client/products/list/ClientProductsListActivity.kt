@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import androidx.appcompat.widget.Toolbar
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -24,6 +26,8 @@ class ClientProductsListActivity : AppCompatActivity() {
 
     val TAG = "ClientProducts"
 
+    var toolbar: Toolbar? = null
+
     var recyclerViewProducts: RecyclerView? = null
     var adapter: ProductsAdapter? = null
 
@@ -42,6 +46,12 @@ class ClientProductsListActivity : AppCompatActivity() {
 
 
         sharedPref = SharedPref(this)
+
+        toolbar = findViewById(R.id.toolbar)
+        toolbar?.setTitleTextColor(ContextCompat.getColor(this, R.color.black))
+        toolbar?.title = "Productos"
+        setSupportActionBar(toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         idCategory = intent.getStringExtra("idCategory")
 

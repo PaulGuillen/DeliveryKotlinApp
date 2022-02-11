@@ -17,7 +17,8 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.optic.deliverykotlinudemy.R
 import com.optic.deliverykotlinudemy.activities.client.address.create.ClientAddressCreateActivity
-import com.optic.deliverykotlinudemy.activities.client.payments.form.ClientPaymentFormActivity
+import com.optic.deliverykotlinudemy.activities.client.payments.mercadopago.form.ClientPaymentFormActivity
+import com.optic.deliverykotlinudemy.activities.client.payments.payment_method.ClientPaymentMethodActivity
 import com.optic.deliverykotlinudemy.adapters.AddressAdapter
 import com.optic.deliverykotlinudemy.models.*
 import com.optic.deliverykotlinudemy.providers.AddressProvider
@@ -148,7 +149,7 @@ class ClientAddressListActivity : AppCompatActivity() {
     }
 
     private fun goToPaymentsForm() {
-        val i = Intent(this, ClientPaymentFormActivity::class.java)
+        val i = Intent(this, ClientPaymentMethodActivity::class.java)
         startActivity(i)
     }
 

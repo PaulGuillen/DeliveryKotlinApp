@@ -17,6 +17,7 @@ import com.optic.deliverykotlinudemy.fragments.restaurant.RestaurantCategoryFrag
 import com.optic.deliverykotlinudemy.fragments.restaurant.RestaurantOrdersFragment
 import com.optic.deliverykotlinudemy.fragments.restaurant.RestaurantProductFragment
 import com.optic.deliverykotlinudemy.models.User
+import com.optic.deliverykotlinudemy.providers.UsersProvider
 import com.optic.deliverykotlinudemy.utils.SharedPref
 
 class RestaurantHomeActivity : AppCompatActivity() {
@@ -24,7 +25,8 @@ class RestaurantHomeActivity : AppCompatActivity() {
     private val TAG = "RestaurantHomeActivity"
     //    var buttonLogout: Button? = null
     var sharedPref: SharedPref? = null
-
+    var usersProvider: UsersProvider? = null
+    var user: User? = null
     var bottomNavigation: BottomNavigationView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -68,6 +70,12 @@ class RestaurantHomeActivity : AppCompatActivity() {
         }
 
         getUserFromSession()
+        usersProvider = UsersProvider(token = user?.sessionToken!!)
+        createToken()
+    }
+
+    private fun createToken() {
+        usersProvider?.createToken(user!!,this)
     }
 
     private fun openFragment(fragment: Fragment) {
@@ -89,7 +97,7 @@ class RestaurantHomeActivity : AppCompatActivity() {
 
         if (!sharedPref?.getData("user").isNullOrBlank()) {
             // SI EL USARIO EXISTE EN SESION
-            val user = gson.fromJson(sharedPref?.getData("user"), User::class.java)
+            user = gson.fromJson(sharedPref?.getData("user"), User::class.java)
             Log.d(TAG, "Usuario: $user")
         }
 

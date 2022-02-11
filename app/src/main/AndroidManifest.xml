@@ -15,14 +15,33 @@
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
+        android:name=".MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DeliveryKotlinUdemy"
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup,UnusedAttribute">
+        <activity
+            android:name=".activities.client.payments.paypal.status.ClientPaymentsPaypalStatusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.client.payments.paypal.form.ClientPaymentsPaypalFormActivity"
+            android:exported="false"
+            android:parentActivityName=".activities.client.payments.payment_method.ClientPaymentMethodActivity" />
+        <activity
+            android:name=".activities.client.payments.payment_method.ClientPaymentMethodActivity"
+            android:exported="false"
+            android:parentActivityName=".activities.client.address.list.ClientAddressListActivity" />
+        <activity
+            android:name=".activities.client.payments.mercadopago.status.ClientPaymentsStatusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.client.payments.mercadopago.installments.ClientPaymentsInstallmentsActivity"
+            android:exported="false" />
         <activity
             android:name=".activities.client.orders.map.ClientOrdersMapActivity"
             android:exported="false" />
@@ -42,7 +61,7 @@
             android:exported="false"
             android:parentActivityName=".activities.client.home.ClientHomeActivity" />
         <activity
-            android:name=".activities.client.payments.form.ClientPaymentFormActivity"
+            android:name=".activities.client.payments.mercadopago.form.ClientPaymentFormActivity"
             android:exported="false" />
         <activity
             android:name=".activities.client.address.map.ClientAddressMapActivity"
@@ -64,7 +83,8 @@
             android:exported="false" />
         <activity
             android:name=".activities.client.products.list.ClientProductsListActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".activities.client.home.ClientHomeActivity" />
         <activity
             android:name=".activities.client.update.ClientUpdateActivity"
             android:exported="true"
@@ -103,6 +123,17 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAT-oqJyn7ZtXXDhxN1WFLx0SV7B9xNIDA" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <service
+            android:name=".services.MyFirebaseMessagingClient"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

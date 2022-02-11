@@ -1,11 +1,13 @@
-package com.optic.deliverykotlinudemy.activities.client.payments.form
+package com.optic.deliverykotlinudemy.activities.client.payments.mercadopago.form
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import com.google.gson.JsonObject
 import com.optic.deliverykotlinudemy.R
+import com.optic.deliverykotlinudemy.activities.client.payments.mercadopago.installments.ClientPaymentsInstallmentsActivity
 import com.optic.deliverykotlinudemy.models.Cardholder
 import com.optic.deliverykotlinudemy.models.MercadoPagoCardTokenBody
 import com.optic.deliverykotlinudemy.providers.MercadoPagoProvider
@@ -141,12 +143,11 @@ class ClientPaymentFormActivity : AppCompatActivity() {
             Callback<JsonObject> {
             override fun onResponse(call: Call<JsonObject>, response: Response<JsonObject>) {
 
-           /*     if (response.body() != null) {
+                if (response.body() != null) {
                     val cardToken = response.body()?.get("id")?.asString
                     val firstSixDigits = response.body()?.get("first_six_digits")?.asString
-                   // goToInstallments(cardToken!!, firstSixDigits!!)
+                    gotoInstallments(cardToken!!, firstSixDigits!!)
                 }
-*/
                 Log.d(TAG, "Response: $response")
                 Log.d(TAG, "body: ${response.body()}")
 
@@ -157,6 +158,13 @@ class ClientPaymentFormActivity : AppCompatActivity() {
             }
 
         })
+    }
+
+    private fun gotoInstallments(cardToken: String , firstSixDigits: String){
+        val i = Intent(this, ClientPaymentsInstallmentsActivity::class.java)
+        i.putExtra("cardToken",cardToken)
+        i.putExtra("firstSixDigits",firstSixDigits)
+        startActivity(i)
     }
 
 

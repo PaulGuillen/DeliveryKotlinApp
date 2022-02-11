@@ -4,14 +4,47 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/drawable/card_radius.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/drawable/edittext_custom.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/drawable/ic__key.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/drawable/ic_add.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/drawable/ic_cancel.xml" value="0.33489583333333334" />
         <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/drawable/ic_location_on.xml" value="0.33489583333333334" />
         <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/drawable/ic_my_location.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/action_bar.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_client_address_create.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_client_address_list.xml" value="0.3145833333333333" />
         <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_client_address_map.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_client_home.xml" value="0.3145833333333333" />
         <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_client_orders_detail.xml" value="0.3145833333333333" />
         <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_client_orders_map.xml" value="0.3145833333333333" />
         <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_client_payment_form.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_client_payment_method.xml" value="0.29739583333333336" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_client_payments_installments.xml" value="0.25" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_client_payments_paypal_form.xml" value="0.29739583333333336" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_client_payments_paypal_status.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_client_payments_status.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_client_products_detail.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_client_products_list.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_client_shopping_bag.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_client_update.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_delivery_home.xml" value="0.3145833333333333" />
         <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_delivery_orders_detail.xml" value="0.3145833333333333" />
         <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_delivery_orders_map.xml" value="0.29739583333333336" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_main.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_register.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_restaurant_home.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/activity_restaurant_orders_detail.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/fragment_client_categories.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/fragment_client_orders.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/fragment_client_orders_status.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/fragment_client_profile.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/fragment_delivery_orders.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/fragment_delivery_orders_status.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/fragment_restaurant_category.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/fragment_restaurant_orders.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/layout/fragment_restaurant_orders_status.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/xml/network_security_config.xml" value="0.3145833333333333" />
         <entry key="..\:/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/drawable/edittext_custom.xml" value="0.33489583333333334" />
         <entry key="..\:/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/drawable/ic_add.xml" value="0.33489583333333334" />
         <entry key="..\:/ProyectosAndroidStudio/DeliveryAppKotlin/app/src/main/res/drawable/ic_add_simple.xml" value="0.33489583333333334" />
