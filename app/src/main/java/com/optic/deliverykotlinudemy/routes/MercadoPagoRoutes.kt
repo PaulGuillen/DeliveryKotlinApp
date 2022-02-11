@@ -11,9 +11,9 @@ import retrofit2.http.Query
 
 interface MercadoPagoRoutes {
 
-    @GET("v1/payment_methods/installments?access_token=TEST-4659571356318640-020116-69ac61dc680956253853fe7e4fe86ba7-666034814")
+    @GET("v1/payment_methods/installments?access_token="YOUR_FIRST_API_KEY_FROM_MERCADOPEGADO")
     fun getInstallments(@Query("bin") bin: String, @Query("amount") amount: String): Call<JsonArray>
 
-    @POST("v1/card_tokens?public_key="YOU_API_KEY_FROM_MERCADO_PAGO")
+    @POST("v1/card_tokens?public_key="YOUR_SECOND_API_KEY_FROM_MERCADO_PAGO")
     fun createCardToken(@Body body: MercadoPagoCardTokenBody): Call<JsonObject>
 }
