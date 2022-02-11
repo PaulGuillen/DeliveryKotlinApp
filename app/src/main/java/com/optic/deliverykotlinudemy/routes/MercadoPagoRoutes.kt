@@ -14,6 +14,6 @@ interface MercadoPagoRoutes {
     @GET("v1/payment_methods/installments?access_token=TEST-4659571356318640-020116-69ac61dc680956253853fe7e4fe86ba7-666034814")
     fun getInstallments(@Query("bin") bin: String, @Query("amount") amount: String): Call<JsonArray>
 
-    @POST("v1/card_tokens?public_key=TEST-40a80dbc-df47-45ba-8951-5f197c7199c0")
+    @POST("v1/card_tokens?public_key="YOU_API_KEY_FROM_MERCADO_PAGO")
     fun createCardToken(@Body body: MercadoPagoCardTokenBody): Call<JsonObject>
 }
