@@ -1,12 +1,11 @@
 # Delivery App Kotlin
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_Proyecto base para que en un futuro cualquiera de la comunidad pueda reutilizar el codigo y les sirva de base para sus proyectos._
 
 ## Comenzando 🚀
+_Para comenzar debes tener instalado PostgreSql(PgAdmin), descargar y ejecutar el backend [BackendApp](https://github.com/PaulGuillen/BackendDeliveryKotlin)_
 
-_Bueno en este caso mostraré capturas de pantalla de las tres perspectivas de cada uno de los roles ( rol admin , rol cliente , rol repartidor)_
-
-Mira **Pruebas** para conocer como son las vistas del proyecto.
+_Mira **Creando usuario principal** para conocer como son las vistas del proyecto._
 
 ### Pre-requisitos 📋
 
@@ -36,8 +35,21 @@ _Tener instalado Android Studio, conocer sobre kotlin, google maps, mercado pago
 
 ```
 
+## Creando usuario principal 🖇️
+
+_Ejecutar el backend, despues de haber ejecutado la aplicacion en android studio_
+
+_Crear en pgadmin un server llamado "Delivery" dentro del server una base de datos llamada "delivery_db"_
+
+<p align="center">
+ <img src="https://i.postimg.cc/SQTT2z1V/Estructura-PGADMIN.png"/>
+
+
 ## Ejecutando los diseños ⚙️
 _* Vista Login y Registro_
+
+_Bueno en este caso mostraré capturas de pantalla de las tres perspectivas de cada uno de los roles ( rol admin , rol cliente , rol repartidor)_
+
 
 <p align="center">
  <img src="https://i.postimg.cc/pdjdCFrk/1.png"/>
