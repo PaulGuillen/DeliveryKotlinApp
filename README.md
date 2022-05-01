@@ -127,7 +127,6 @@ _En este video se mostrará las demas funcionalidades de la app._
 
 ---
 
-
 ## Autor ✒️
 
 * **Paul Guillen Acuña** - *Mi Repositorio* - [PaulGuillen](https://github.com/PaulGuillen?tab=repositories)
