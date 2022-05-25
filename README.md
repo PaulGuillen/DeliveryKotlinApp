@@ -103,7 +103,7 @@ _* En este paso procederé a mostrar las vistas del rol admin (Restaurante)._
  <img src="https://i.postimg.cc/ZqKWVgY3/10.png"/>
 </p>
 
-  * Asignar un repartidor desde rol admin
+  * Asignar un repartidor desde rol admin.
   
 <p align="center">
 
