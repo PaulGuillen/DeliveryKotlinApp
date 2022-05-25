@@ -55,7 +55,7 @@ _Además el usuario que has creado desde android studio solo tendra 1 rol por de
 ## Ejecutando los diseños ⚙️
 _* Vista Login y Registro_
 
-_Bueno en este caso mostraré capturas de pantalla de las tres perspectivas de cada uno de los roles ( rol admin , rol cliente , rol repartidor)_
+_Bueno en este caso mostraré capturas de pantalla de las tres perspectivas de cada uno de los roles ( rol admin , rol cliente , rol repartidor)._
 
 
 <p align="center">
