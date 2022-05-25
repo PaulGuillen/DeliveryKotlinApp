@@ -63,7 +63,7 @@ _Bueno en este caso mostraré capturas de pantalla de las tres perspectivas de c
  <img src="https://i.postimg.cc/t4ZRRx3y/2.png"/>
 </p>
 
-_* En este paso procederé a mostrar las vistas del rol cliente (Cliente)_
+_* En este paso procederé a mostrar las vistas del rol cliente (Cliente)._
 
 <p align="center">
  <img src="https://i.postimg.cc/Hxxh2p7M/5.png"/>
