@@ -46,7 +46,7 @@ _Crear en pgadmin un server llamado "Delivery" dentro del server una base de dat
  <img src="https://i.postimg.cc/9Q9VdBj2/estrcutra.png"/>
 </p>
 
-_Además el usuario que has creado desde android studio solo tendra 1 rol por defecto el cual es usuario, tienes que modifcarlo en PGADMIN en la "tabla user_has_roles", deberia quedar así_
+_Además el usuario que has creado desde android studio solo tendra 1 rol por defecto el cual es usuario, tienes que modifcarlo en PGADMIN en la "tabla user_has_roles", deberia quedar así._
   
  <p align="center">
  <img src="https://i.postimg.cc/7YFrZTJW/roles.png"/>
