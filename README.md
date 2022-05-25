@@ -91,7 +91,7 @@ _* En este paso procederé a mostrar las vistas del rol cliente (Cliente)._
 </p>
 
 
-_* En este paso procederé a mostrar las vistas del rol admin (Restaurante)_
+_* En este paso procederé a mostrar las vistas del rol admin (Restaurante)._
 
 <p align="center">
  <img src="https://i.postimg.cc/mgYJZpsP/3.png"/>
