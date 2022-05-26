@@ -112,7 +112,7 @@ _* En este paso procederé a mostrar las vistas del rol admin (Restaurante)._
 
 </p>
 
-_* En este paso procederé a mostrar las vistas del rol repartidor (Repartidor)_
+_* En este paso procederé a mostrar las vistas del rol repartidor (Repartidor)._
 
 <p align="center">
  <img src="https://i.postimg.cc/8CG0s224/Screenshot-1644611879.png"/>
