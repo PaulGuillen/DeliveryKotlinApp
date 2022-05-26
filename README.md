@@ -37,7 +37,7 @@ _Tener instalado Android Studio, conocer sobre kotlin, google maps, mercado pago
 
 ## Creando usuario principal 🖇️
 
-_Ejecutar el backend, antes de haber ejecutado la aplicacion en android studio_
+_Ejecutar el backend, antes de haber ejecutado la aplicacion en android studio._
 
 _Crear en pgadmin un server llamado "Delivery" dentro del server una base de datos llamada "delivery_db"._
 
