@@ -81,7 +81,7 @@ _* En este paso procederé a mostrar las vistas del rol cliente (Cliente)._
 </p>
 
  
- * Pagar con Paypal
+ * Pagar con Paypal.
 
  <p align="center">
   
