@@ -1,6 +1,6 @@
 # Delivery App Kotlin
 
-_Proyecto base para que en un futuro cualquiera de la comunidad pueda reutilizar el código y les sirva de base para sus proyectos._
+_Proyecto base para que en un futuro cualquiera de la comunidad pueda reutilizar el código y les sirva de base para sus proyectos_
 
 ## Comenzando 🚀
 _Para comenzar debes tener instalado PostgreSql(PgAdmin), descargar y ejecutar el backend [BackendApp](https://github.com/PaulGuillen/BackendDeliveryKotlin)._
