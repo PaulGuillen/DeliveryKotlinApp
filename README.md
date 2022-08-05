@@ -5,7 +5,7 @@ _Proyecto base para que en un futuro cualquiera de la comunidad pueda reutilizar
 ## Comenzando 🚀
 _Para comenzar debes tener instalado PostgreSql(PgAdmin), descargar y ejecutar el backend [BackendApp](https://github.com/PaulGuillen/BackendDeliveryKotlin)._
 
-_Mira **Creando usuario principal** para conocer como son las vistas del proyecto._
+_Mira **Creando usuario principal** para ver que usuario pueden utilizar para hacer sus pruebas._
 
 ### Pre-requisitos 📋
 
