@@ -9,7 +9,7 @@ _Mira **Creando usuario principal** para ver que usuario pueden utilizar para ha
 
 ### Pre-requisitos 📋
 
-_Tener instalado Android Studio, conocer sobre kotlin, google maps, mercado pago, paypal, consultas a servidor Retrofit2, socketIO en NodeJS._
+_Tener instalado Android Studio, conocer sobre kotlin, google maps, mercado pago, paypal, consultas a servidor Retrofit, socketIO en NodeJS._
 
 ```
 . MinSdk =  23
