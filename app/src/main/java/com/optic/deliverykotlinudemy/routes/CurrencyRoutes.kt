@@ -14,8 +14,7 @@ import retrofit2.http.*
 
 interface CurrencyRoutes {
 
-    @GET("convert?q="YOUR_API_KEY_FROM_CURRENCY_CONVERTER_API
-         ")
+    @GET("convert?q=USD_PEN&compact=ultra&apiKey=766a054691a396ff9c79")
     fun getCurrencyValue(): Call<JsonObject>
 
 
