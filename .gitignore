@@ -8,12 +8,10 @@
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+/.idea/
 .DS_Store
 /build
 /captures
-.idea/git_toolbox_prj.xml
-.idea/deploymentTargetDropDown.xml
-.idea/misc.xml
 *.log
 .externalNativeBuild
 .cxx
