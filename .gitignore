@@ -1,7 +1,5 @@
 *.iml
 .gradle
-/.idea/deploymentTargetDropDown.xml   
-.idea/git_toolbox_prj.xml
 .idea/sonarlint/
 /local.properties
 /.idea/caches
@@ -13,6 +11,10 @@
 .DS_Store
 /build
 /captures
+.idea/git_toolbox_prj.xml
+.idea/deploymentTargetDropDown.xml
+.idea/misc.xml
+*.log
 .externalNativeBuild
 .cxx
 local.properties
