@@ -1,6 +1,7 @@
 *.iml
 .gradle
-.idea/misc.xml
+/.idea/deploymentTargetDropDown.xml   
+.idea/git_toolbox_prj.xml
 .idea/sonarlint/
 /local.properties
 /.idea/caches
