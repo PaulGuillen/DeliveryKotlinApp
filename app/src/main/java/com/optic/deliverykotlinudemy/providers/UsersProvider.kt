@@ -77,8 +77,8 @@ class UsersProvider(val token: String? = null) {
         return usersRoutes?.register(user)
     }
 
-    fun login(email: String, password: String): Call<ResponseHttp>? {
-        return usersRoutes?.login(email, password)
+    fun login(user: User): Call<ResponseHttp>? {
+        return usersRoutes?.login(user)
     }
 
     fun updateWithoutImage(user: User): Call<ResponseHttp>? {

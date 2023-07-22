@@ -53,7 +53,12 @@ class MainActivity : AppCompatActivity() {
 
         if (isValidForm(email, password)) {
 
-            usersProvider.login(email, password)?.enqueue(object: Callback<ResponseHttp> {
+            val user = User(
+                email = email,
+                password = password
+            )
+
+            usersProvider.login(user)?.enqueue(object: Callback<ResponseHttp> {
                 override fun onResponse(call: Call<ResponseHttp>, response: Response<ResponseHttp>) {
 
                     Log.d("MainActivity", "Response: ${response.body()}")

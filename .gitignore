@@ -1,6 +1,8 @@
 *.iml
 .gradle
 .idea/sonarlint/
+.idea/misc.xml
+.idea/gradle.xml
 /local.properties
 /.idea/caches
 /.idea/libraries

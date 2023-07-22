@@ -5,11 +5,11 @@ import com.google.gson.annotations.SerializedName
 
 class User(
     @SerializedName("id") val id: String? = null,
-    @SerializedName("name") var name: String,
-    @SerializedName("lastname") var lastname: String,
-    @SerializedName("email") val email: String,
-    @SerializedName("phone") var phone: String,
-    @SerializedName("password") val password: String,
+    @SerializedName("name") var name: String ? = null,
+    @SerializedName("lastname") var lastname: String ? = null,
+    @SerializedName("email") val email: String ? = null,
+    @SerializedName("phone") var phone: String ? = null,
+    @SerializedName("password") val password: String? = null ,
     @SerializedName("image") var image: String? = null,
     @SerializedName("session_token") val sessionToken: String? = null,
     @SerializedName("notification_token") var notificationToken: String? = null,

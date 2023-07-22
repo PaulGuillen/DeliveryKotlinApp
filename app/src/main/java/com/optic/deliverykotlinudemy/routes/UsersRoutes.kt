@@ -18,9 +18,8 @@ interface UsersRoutes {
     @POST("users/create")
     fun register(@Body user: User): Call<ResponseHttp>
 
-    @FormUrlEncoded
     @POST("users/login")
-    fun login(@Field("email") email: String, @Field("password") password: String): Call<ResponseHttp>
+    fun login(@Body user: User): Call<ResponseHttp>
 
     @Multipart
     @PUT("users/update")
