@@ -1,6 +1,6 @@
 # Delivery App Kotlin
 
-# Al dia de hoy las APIS DE CONSUMO COMO MERCADO PAGO Y PAYPAL ESTAN DESACTUALZIADOS POR PARTE DEL PROYECTO TENER EN CUENTA ESO.
+_Al dia de hoy las APIS DE CONSUMO COMO MERCADO PAGO Y PAYPAL ESTAN DESACTUALZIADOS POR PARTE DEL PROYECTO TENER EN CUENTA ESO.
 
 _Proyecto base para que en un futuro cualquiera de la comunidad pueda reutilizar el código y les sirva de base para sus proyectos._
 
